@@ -433,7 +433,7 @@ form{display:grid;gap:12px}
 
 /* whatsapp floating button */
 .wa-float{
-  position:fixed;right:32px;bottom:70px;z-index:95;
+  position:fixed;right:32px;bottom:50px;z-index:95;
   width:35px;height:35px;border-radius:50%;
   display:grid;place-items:center;
   background:linear-gradient(135deg,#25d366,#128c7e);
