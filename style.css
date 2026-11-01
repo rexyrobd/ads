@@ -430,3 +430,10 @@ form{display:grid;gap:12px}
   .lightbox{padding:14px}
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}.bars s{transform:none!important}.bar i{width:var(--w)}}
+
+.takeaways{display:grid;gap:8px;margin-top:6px;font-size:.95rem;color:var(--muted)}
+.takeaways li::before{content:"✓ ";color:var(--a2);font-weight:700}
+.author{display:flex;align-items:center;gap:12px;margin-top:10px;padding-top:14px;border-top:1px solid var(--border)}
+.avatar{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;font-weight:700;color:#fff;background:var(--grad)}
+.author b{display:block;font-size:.92rem}
+.author small{color:var(--muted);font-size:.78rem}
